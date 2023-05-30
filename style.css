@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --white: #ffffff;
+  --primarycolor: #00abf0;
+  --primaryfont: "Outfit", sans-serif;
+  --bodycolor: #081b29;
+}
+.hero {
+  margin-top: 130px;
+}
+body {
+  font-family: var(--primaryfont);
+  background: var(--bodycolor) !important;
+  color: var(--white) !important;
+}
+.header-content {
+  /* display: flex; */
+
+  justify-content: space-between;
+
+  align-items: center;
+}
+.nav-menu ul {
+  display: flex;
+}
+.nav-menu ul li {
+  list-style: none;
+  padding-right: 10px;
+  text-transform: uppercase;
+}
+.header {
+  background-color: var(--bodycolor);
+  padding: 20px 0 10px 0;
+  color: var(--white);
+  font-family: var(--primaryfont);
+}
+.logo span {
+  color: var(--primarycolor);
+}
+.logo {
+  font-size: 30px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+
+  margin-top: -10px;
+}
+.text {
+  font-family: var(--primaryfont);
+}
+.text h1 {
+  font-weight: 800;
+}
+.text h1 span {
+  color: var(--primarycolor);
+}
+.text p {
+  margin-top: 40px;
+}
+
+.my-image img {
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 var(--primarycolor);
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.my-image {
+  height: 350px;
+  width: 350px;
+}
+.circle-img {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.button a {
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: var(--primarycolor);
+  padding: 10px 25px;
+  color: var(--white);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.outline-btn {
+  background-color: transparent !important;
+  border: 2px solid var(--primarycolor);
+  margin-left: 10px;
+}
+.social-media {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon i {
+  font-size: 20px;
+  background-color: var(--primarycolor);
+  border-radius: 50%;
+  padding: 6px 9px;
+  margin-right: 3px;
+}
+.social-text {
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.social-text i {
+  color: var(--primarycolor);
+  font-size: 24px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
